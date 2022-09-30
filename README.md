@@ -1,2 +1,2 @@
-# Steeleye_assignment_Frontend_engineer
+# Steeleye_Frontend_engineer_assignment
 React Component Code Review
