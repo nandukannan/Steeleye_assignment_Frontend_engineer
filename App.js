@@ -35,12 +35,12 @@ const WrappedListComponent = ({
   const [setSelectedIndex, selectedIndex] = useState();
 
     useEffect(() => {
-        //renamed fucntion name from setSelectedIndex to selectedIndex
+        //renamed function name from setSelectedIndex to selectedIndex
     selectedIndex(null);
   }, [items,setSelectedIndex]);
 
   const handleClick = index => {
-    selectedIndex(index); //function name changed selectedIndex
+    selectedIndex(index); //function name changed to selectedIndex
   };
 
   return (
@@ -52,7 +52,7 @@ const WrappedListComponent = ({
         onClickHandler={() => handleClick(index)}
           text={item.text}
           index={index}
-          isSelected={setSelectedIndex} //index value setSelectedIndex
+          isSelected={setSelectedIndex} //index value changed to setSelectedIndex
         />
       ))}
     </ul>
