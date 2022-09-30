@@ -13,7 +13,7 @@ const WrappedSingleListItem = ({
   return (
     <li>
       style={{ backgroundColor: isSelected ? 'green' : 'red'}}
-      <button onClick={onClickHandler(index)} >+</button>
+      onClick={onClickHandler(index)} 
     
       {text}
     </li>
@@ -28,10 +28,7 @@ WrappedSingleListItem.propTypes = {
 };
 
 const SingleListItem = memo(WrappedSingleListItem);
-//export default SingleListItem;
-//setSelectedIndex(() 
-//const  setSelectedIndex = index 
-// List Component
+
 const WrappedListComponent = ({
   items,
 }) => {
@@ -43,7 +40,7 @@ const WrappedListComponent = ({
   }, [items,setSelectedIndex]);
 
   const handleClick = index => {
-    selectedIndex(index);
+    selectedIndex(index); //function name changed selectedIndex
   };
 
   return (
@@ -55,7 +52,7 @@ const WrappedListComponent = ({
         onClickHandler={() => handleClick(index)}
           text={item.text}
           index={index}
-          isSelected={setSelectedIndex}
+          isSelected={setSelectedIndex} //index value setSelectedIndex
         />
       ))}
     </ul>
