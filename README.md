@@ -10,6 +10,7 @@ In order to create lists of elements, A character characteristic "key" needed to
 
 
 # 2. What problems / warnings are there with code?
+
 Warning 1:
 React Hook useEffect has a missing dependency: 'setSelectedIndex'. Either include it or remove the dependency array react-hooks/exhaustive-deps
 
@@ -20,6 +21,6 @@ As per the program given the function name in the useEffect was given wrong and 
 
 # 3. Please fix, optimize, and/or modify the component as much as you think is necessary.
 
-changes made in the program are marked by comments in the program
+Changes made in the program are marked by comments in the program
 
 
