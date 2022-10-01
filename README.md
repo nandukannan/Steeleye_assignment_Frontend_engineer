@@ -4,7 +4,7 @@ React Component Code Review
 # 1. Explain what the simple List component does.
 
 Lists are used to display data in an ordered format and mainly used to display menus on websites.
-We use the map() function for traversing the list element, and for updates, we enclosed them between curly braces {}. Finally, we assign the array elements to listItems. Now, include the new list inside &t;ul&g; &t/ul&g elements and render it to the DOM.
+We use the map() function for traversing the list element, and for updates, we enclosed them between curly braces {}. Finally, we assign the array elements to listItems. Now, include the new list inside <ul> </ul> elements and render it to the DOM.\<foo>
 
 In order to create lists of elements, A character characteristic "key" needed to be included .To determine whether elements in a list had already been modified, added, or destroyed, React need so many keys.An individual identifier is required for each object.An id of an entity can also works fine for all of that. 
 
