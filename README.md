@@ -16,7 +16,7 @@ What problems / warnings are there with code?
 Warning 1:
 React Hook useEffect has a missing dependency: 'setSelectedIndex'. Either include it or remove the dependency array react-hooks/exhaustive-deps
 
-As per the warning suggested solution, I include the setSelectedIndex in the dependency array in useEffect(). UseEffect accepts two arguments. The second argument is optional. useEffect(<function>, <dependency>)
+As per the warning suggested solution, I include the setSelectedIndex in the dependency array in useEffect(). UseEffect accepts two arguments. The second argument is optional. useEffect(function, dependency)
   
 As per the program given the function name in the useEffect was given wrong and changed it to selectedIndex from setSelectedIndex
 
